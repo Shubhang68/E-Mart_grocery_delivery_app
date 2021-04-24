@@ -1,0 +1,10 @@
+<resources>
+    <string name="google_maps_API_key">AIzaSyBYoxvCmj8uYUv_tzn5wvl6OjTOiAHnJ5s</string>>
+    <string name="app_name">E-MART</string>
+    <string-array name="items">
+        <item>>Customers</item>
+        <item>>Retailers</item>
+        <item>>Wholesalers</item>
+    </string-array>
+    >
+</resources>

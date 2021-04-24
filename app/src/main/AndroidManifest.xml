@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.app5">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App5">
+        <meta-data
+            android:name= "com.google.android.geo.API_KEY"
+            android:value="AIzaSyA5EBV2ZMhVdclLGEhq6bBCqYCV1VFFcVA"
+            />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            />
+        <activity android:name=".RetailOrderList" />
+        <activity android:name=".AddRemoveActivity" />
+        <activity android:name=".OrderList" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".DeliveryActivity" />
+        <activity android:name=".ResetActivity" />
+        <activity android:name=".BillActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".ShopActivity" />
+        <activity android:name=".RetailMenu" />
+        <activity android:name=".CancelOrder" />
+        <activity android:name=".WholesaleMenu" />
+        <activity android:name=".CustomerMenu" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name= "com.google.android.geo.API_KEY"
+                android:value="AIzaSyA5EBV2ZMhVdclLGEhq6bBCqYCV1VFFcVA"
+                />
+        </activity>
+    </application>
+
+</manifest>
